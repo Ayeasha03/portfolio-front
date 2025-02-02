@@ -27,6 +27,7 @@ import Overlap from '../../../assets/images/neck.mp4';
 import Portable from '../../../assets/images/oval.mp4';
 import Sequin from '../../../assets/images/sequin.mp4';
 import SequinFront from '../../../assets/images/sequinfront.mp4';
+import OverlapFront from '../../../assets/images/overlap.mp4';
 
 const creativeProjects = [
   {
@@ -88,7 +89,7 @@ const creativeProjects = [
   {
         title: "A Criss-cross Top With Trouser Sewn With Ankara",
         description: "A hand-sewn criss-cross top with trouser sewn with ankara for ladies.",
-        video: Overlap
+        video: OverlapFront
   },
   {
         title: "Snowflake Art",
@@ -124,6 +125,11 @@ const creativeProjects = [
         title: "Deer Art",
         description: "This is a deer art that can be placed on a table for decorative purpose.",
         image: Table1
+  },
+  {
+      title: "A Criss-cross Top With Trouser Sewn With Ankara(Back)",
+      description: "A hand-sewn criss-cross top with trouser sewn with ankara for ladies.",
+      video: Overlap
   },
   {
         title: "A beautifully shaped flower Vase",

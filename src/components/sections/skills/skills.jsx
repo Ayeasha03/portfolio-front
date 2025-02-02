@@ -5,7 +5,8 @@ import {
   FaJs,
   FaReact,
   FaNodeJs,
-  FaPaintBrush,  
+  FaPaintBrush, 
+  FaServer, 
 } from "react-icons/fa";
 import { GiSewingNeedle, GiDatabase } from "react-icons/gi";
 
@@ -16,6 +17,7 @@ function Skills() {
     { name: "JavaScript", icon: <FaJs className="text-yellow-500 text-4xl" />, level: "Intermediate" },
     { name: "React", icon: <FaReact className="text-teal-400 text-4xl" />, level: "Intermediate" },
     { name: "Node.js", icon: <FaNodeJs className="text-green-500 text-4xl" />, level: "Intermediate" },
+    { name: "Express", icon: <FaServer className="text-gray-700 text-4xl" />, level: "Intermediate" },
     { name: "MongoDB", icon: <GiDatabase className="text-green-700 text-4xl" />, level: "Intermediate" },
   ];
 
