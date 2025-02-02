@@ -22,7 +22,8 @@ function Contact() {
     e.preventDefault();
     const id = toast.loading("Sending message...");
     try {
-      const response = await axios.post("https://backend-o2rt.onrender.com/api/messages/", formData);  // Adjust the URL as needed
+      const response = await axios.post("https://backend-o2rt.onrender.com/api/messages", formData);
+
       toast.update(id, {
         render: "Message sent successfully!",
         type: "success",

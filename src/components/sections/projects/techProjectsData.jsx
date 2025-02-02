@@ -1,4 +1,3 @@
-// src/components/sections/projects/techProjectsData.js
 import Port from '../../../assets/images/port.png';
 import Bright from '../../../assets/images/bright.png';
 import Nextgen from '../../../assets/images/nextgen.png';
@@ -10,7 +9,7 @@ const techProjects = [
     description: "A responsive portfolio showcasing my projects and skills.",
     tools: "HTML, CSS, JavaScript",
     screenshot: Port,
-    link: "https://portfolio.example.com",
+    link: "https://www.ayeashacreations.io/",
   },
   {
     title: "Pest Control Service Website",
